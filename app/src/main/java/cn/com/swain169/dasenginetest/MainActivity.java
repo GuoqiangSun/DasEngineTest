@@ -103,7 +103,7 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback {
         String key;
         // key = "PmFEwIQd/nKms+4e5XB83g=="; // no author
 
-        key = "YrSLBTJo9m15WqxjZLKuHw=="; // my vivo phone
+        key = "YrSLBTJo9m15WqxjZLKuHw=="; // my vivo phone 867194027653693
 //        key = "HiYRTk2juCyT4dGsKyAzFM=="; // vispect devices
 
         ret = DasEngine.saveAuthorizationKey(key.getBytes());
