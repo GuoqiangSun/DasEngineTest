@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            storeFile file('..\\commonLibKey.jks')
+            storePassword 'swain169'
+            keyAlias = 'commonLib'
+            keyPassword 'swain169'
+        }
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "cn.com.swain169.dasenginetest"
